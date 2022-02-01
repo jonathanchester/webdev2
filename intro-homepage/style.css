@@ -1,6 +1,14 @@
+main {
+    margin: 0 auto;
+    padding: 2rem
+}
 body {
-    background-color: #111111;
+    background-color: #000000;
 }
 .speech {
     border: .1em solid white;
+    margin: 3rem 0;
+}
+.speech p {
+    color: #FFFFFF;
 }
