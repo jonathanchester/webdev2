@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.slabo {
+    font-family: 'Slabo 27px', serif;
+}
+
+header {
+    margin: -.5rem;
+    padding: 1rem;
+    background-color: skyblue;
+}
+
+.top {
+text-align: center;
+}
+
+nav a {
+    margin: .60rem;
+    color: darkblue
+}
+
+main {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+.section {
+    padding: .5em;
+}
+
+footer {
+    text-align: center;
+    background-color: skyblue;
+    padding: 2em;
+    margin: -.5em;
+    
+}
