@@ -1,12 +1,8 @@
-* { margin: 0; padding: 0; box-sizing: border-box;}
+* { margin: 0; padding: 0; box-sizing: border-box; border: solid;}
 
 :root {
   --clr-nonmain: dodgerblue;
 }
-
-.wrapper {
-  flex-grow: 1;
- }
 
 .hero-section {
   padding: 50vh;
@@ -17,8 +13,8 @@
 
 body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  
+  
   
 }
 
@@ -32,13 +28,20 @@ header {
   padding: 1em;
 }
 
+p {
+  padding: 1em;
+  padding-left: 0;
+  font-size: 2rem;
+}
+
+
+
 main {
   max-width: 20rem;
   margin: 3em auto;
 }
 
 footer {
-  background-color: var(--clr-nonmain);
   text-align: center;
   padding: 1em;
 }
