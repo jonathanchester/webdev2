@@ -1,21 +1,18 @@
-* { margin: 0; padding: 0; box-sizing: border-box; border: solid;}
+* { margin: 0; padding: 0; box-sizing: border-box;}
 
 :root {
-  --clr-nonmain: dodgerblue;
+  --clr-nonmain: whitesmoke;
 }
 
 .hero-section {
   padding: 50vh;
-  background-image: url('https://cdn.vox-cdn.com/thumbor/mGQYyaGQpBJgswtZK3OfnIVK_0A=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/12787717/Dragon_Quest_11_beginner_s_guide__0007_Layer_2.jpg');
+  background-image: linear-gradient(to bottom right, #afddfb, #21437b);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 body {
   min-height: 100vh;
-  
-  
-  
 }
 
 header {
@@ -26,6 +23,12 @@ header {
   flex-wrap: wrap;
   gap: 1em;
   padding: 1em;
+  box-shadow: 0 0 1em grey;
+}
+
+a {
+  color: #21437b;
+  font-size: 2rem;
 }
 
 p {
@@ -33,8 +36,6 @@ p {
   padding-left: 0;
   font-size: 2rem;
 }
-
-
 
 main {
   max-width: 20rem;
