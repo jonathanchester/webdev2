@@ -1,18 +1,82 @@
-* { margin: 0; padding: 0; box-sizing: border-box; border: solid;}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fredoka+One&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; /* border: solid;*/}
+
+:root {
+    --text-fam: 'Fredoka One', cursive;
+    --text-style: italic;
+    --text-colors: #f8f8f8;
+    --subheaders: 'Baloo Tamma 2', cursive;
+}
 
 .hero-section {
     height: 100vh;
-    background-color: #111111;
+    background-color:#488ae6;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    font-family: var(--text-fam)
+    
+}
+
+.hero-section h1 {
+  font-style: var(--text-style);
+  color: var(--text-colors);
+  font-size: 7rem;
+  text-shadow: -.5rem .2rem #000000;
 }
 
 header {
+  background-color:#f8f8f8;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 1em;
   padding-right: 1em;
   position: sticky;
+  top: 0;
+  font-family: var(--text-fam)
+}
+
+header h1 {
+    color: #488ae6;
+}
+
+a {
+    font-family: var(--subheaders);
+    font-weight: 900;
+    color: #488ae6;
+}
+
+.sidekick {
+    height: 50vh;
+    background-color:#f8f8f8;
+    font-family: var(--text-fam);
+}
+
+.container-1 {
+    border: solid red;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    font-family: var(--text-fam)
+}
+
+.content-1 {
+
+}
+
+.container-2 {
+    border: solid blue;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    font-family: var(--text-fam)
+}
+
+footer {
+    text-align: center;
+    background-color: #488ae6;
+    font-family: var(--text-fam);
+    color: var(--text-colors);
+    padding: 1em;
 }
