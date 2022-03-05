@@ -1,0 +1,46 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+.hero {
+  border: solid black;
+  width: 100vw;
+  height: 100vh;  
+}
+
+.container {
+ display: grid;
+ grid-template-columns: 2fr 2fr;
+}
+
+.covers {
+  border: solid black;
+  height: 100vh;
+}
+
+.a {
+  background-image:url("https://i1.sndcdn.com/artworks-WORvNChuNHDr6MVM-iSBLsA-t240x240.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+}
+
+.b {
+  background: #323ba8;
+  position: sticky;
+  top: 0;
+}
+
+.c {
+  background: #101450;
+  position: sticky;
+  top: 0;
+}
+
+.playing {
+  border: solid blue;
+  height: 100vh;
+}
+
+.d {
+  border: solid blue;
+}
