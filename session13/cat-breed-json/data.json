@@ -1,0 +1,58 @@
+{
+  "cat_breeds": [
+    {
+      "breed": "Abyssinian",
+      "location_of_origin": "Unspecified, but somewhere in Afro-Asia, likely Ethiopia",
+      "type": "Natural",
+      "body_type": "Semi-foreign",
+      "coat": "Short",
+      "coat_pattern": "Ticked tabby",
+      "img_link": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Gustav_chocolate.jpg"
+    },
+    {
+      "breed": "Aegean",
+      "location_of_origin": "Greece",
+      "type": "Natural",
+      "body_type": "Moderate",
+      "coat": "Semi-long",
+      "coat_pattern": "Multi-color",
+      "img_link": "https://upload.wikimedia.org/wikipedia/commons/5/51/Aegean_cat.jpg"
+    },
+    {
+      "breed": "American Wirehair",
+      "location_of_origin": "United States",
+      "type": "Mutation",
+      "body_type": "Normal",
+      "coat": "Rex",
+      "coat_pattern": "All",
+      "img_link": "https://upload.wikimedia.org/wikipedia/commons/7/7f/American_Wirehair_-_CFF_cat_show_Heinola_2008-05-04_IMG_8721.JPG"
+    },
+    {
+      "breed": "British Longhair",
+      "location_of_origin": "United Kingdom (England)",
+      "type": "Natural",
+      "body_type": "Cobby",
+      "coat": "Semi-long",
+      "coat_pattern": "All",
+      "img_link": "https://upload.wikimedia.org/wikipedia/commons/5/50/British_Longhair_-_Black_Silver_Shaded.jpg"
+    },
+    {
+      "breed": "Himalayan or Colorpoint Persian",
+      "location_of_origin": "United States and United Kingdom",
+      "type": "Crossbreed between the Persian and Siamese",
+      "body_type": "Cobby",
+      "coat": "Long",
+      "coat_pattern": "Colorpoint",
+      "img_link": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Chocolate_Himlayan.jpg"
+    },
+    {
+      "breed": "Norwegian Forest Cat",
+      "location_of_origin": "Norway",
+      "type": "Natural",
+      "body_type": "Cobby",
+      "coat": "Long",
+      "coat_pattern": "All but colorpoint",
+      "img_link": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Norskskogkatt_Evita_3.JPG"
+    }
+  ]
+}

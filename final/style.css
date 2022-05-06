@@ -1,0 +1,116 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+.outer-area {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+background-color: rgb(15, 15, 15);
+}
+
+.main-container {
+  border: solid black;
+  border-style: groove;
+  border-radius: .3em;
+  height: 80vh;
+  width: 80vw;
+  margin-right: 5rem;
+
+  display: grid;
+  
+background-image: linear-gradient(to bottom right, dodgerblue, blue);
+}
+
+.active {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  z-index: 2;
+
+  transition: all 1s;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.gallery-img {
+  padding: 2em 0em 0em 2em ;
+}
+
+.select-container {
+  position: absolute;
+  top: 2.4rem;
+  right: 4rem;
+  height: 40vh;
+  width: 15vw;
+  
+  border: solid black;
+  border-style: groove;
+  border-radius: .3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  background-image: linear-gradient(to bottom right, dodgerblue, blue);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.save-quit {
+  margin-top: 2em;
+}
+
+.time-container {
+  position: absolute;
+  bottom: 5.8rem;
+  right: 4rem;
+  height: 13.3vh;
+  width: 15vw;
+  
+  border: solid black;
+  border-style: groove;
+  border-radius: .3em;
+  
+  background-image: linear-gradient(to bottom right, dodgerblue, blue);
+}
+
+.title-container {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 4rem;
+  height: 6.67vh;
+  width: 40vw;
+  
+  border: solid black;
+  border-style: groove;
+  border-radius: .3em;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  background-image: linear-gradient(to bottom right, dodgerblue, blue);
+}
+
+.backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(15,15,15);
+  left: 0;
+  top: 0;
+  z-index: 1;
+
+  display: none;
+}

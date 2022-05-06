@@ -1,0 +1,24 @@
+{
+    "images": [
+      {
+        "img_src": "cat.jpg",
+        "alt": "a cute cat"
+      },
+      {
+        "img_src": "dolphin.jpg",
+        "alt": "some cute dolphins"
+      },
+      {
+        "img_src": "fish.jpg",
+        "alt": "a spiky fish"
+      },
+      {
+        "img_src": "giraffe.jpg",
+        "alt": "some cute giraffes"
+      },
+      {
+        "img_src": "hamster.jpg",
+        "alt": "a cute hamster"
+      }
+    ]
+}
